@@ -1,0 +1,131 @@
+/**************************************
+	Com122 Final Project
+	SD Lock-n-Key contact page styles
+	Author: Dominic LaRouche
+	Date: 2/17/2015
+	file name: contact.css
+***************************************/
+
+/* background color of the entire page */
+
+html
+{
+	background-color: #024270;
+}
+
+/* body styles */
+
+body
+{
+	background-color: rgb(204,204,204);
+	float: none;
+	margin: 0px auto;
+    width: 80%;
+	display: block;
+}
+
+/* header styles */
+
+header
+{
+	background-color: #024270;
+	height: 150px;
+	display: block;
+	border: 1px solid rgb(204,204,204);
+}
+
+header #phone
+{
+	float: right;
+	margin-top: 0px;
+	margin-right:0px;
+}
+
+header #logo
+{
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+header div#social
+{
+	float: right;
+	margin-bottom: 0px;
+	margin-right: -265px;
+	margin-top: 50px;
+}
+
+header nav.horizontal
+{
+	border: 1px solid rgb(204,204,204);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	height: 38px;
+	width: 98%;
+	margin-top: 105px;
+	margin-left:10px;
+}
+
+header nav.horizontal li 
+{
+   background-color: rgb(204,204,204);
+   display: block;
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   float: left;
+   height: 30px;
+   letter-spacing: =3px;
+   line-height: 30px;
+   margin-top: -11px;
+   margin-left: 10px;
+   margin-bottom: 10px;	
+   margin-right: 0px;
+   text-align: center;
+   width: 12%;
+}
+
+/* section layout */
+
+
+
+section#left
+{
+   float: left;
+   margin-left: 20px;
+   margin-right: 10px;
+   width: 60%;
+}
+
+section#right 
+{
+   float: right;
+   margin-right: 50px;
+   margin-left: 10px;
+   width: 30%;
+}
+
+footer
+{
+	clear: left;
+	margin-left: 10px;
+}
+
+/* div styles */
+
+div#contactinfo
+{
+	background-color: #024270;
+	color: rgb(204,204,204);
+}
+
+div#services
+{
+	background-color: #024270;
+	color: rgb(204,204,204);
+}
+
+
+
